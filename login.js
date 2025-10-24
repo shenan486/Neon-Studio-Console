@@ -14,7 +14,7 @@ function checkIdentity(user, pass) {
   if (user == 'N-Ynktgt') {
     if (pass == '25141120720') {
       alert(`Logged In As Shenan`);
-      const url = "https://neon-studio.netlify.app/n/shenan-console/";
+      const url = "https://n-s-c.netlify.app/n/shenan-console/";
       window.open(url);
     } else {
       alert('wrong password');
@@ -22,7 +22,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Xobozn') {
     if (pass == '24152152614') {
       alert(`Logged In As Rivith`);
-      const url = "https://neon-studio.netlify.app/n/rivith-console/";
+      const url = "https://n-s-cnetlify.app/n/rivith-console/";
       window.open(url);
     } else {
       alert('wrong password');
@@ -30,7 +30,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Jceivmsi') {
     if (pass == '103592213199') {
       alert(`Logged In As Buwaneka`);
-      const url = "https://neon-studio.netlify.app/n/buwaneka-console/";
+      const url = "https://n-s-c.netlify.app/n/buwaneka-console/";
       window.open(url);
     } else {
       alert('wrong password');
@@ -38,7 +38,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Jktkzn') {
     if (pass == '1011202614') {
       alert(`Logged In As Deneth`);
-      const url = "https://neon-studio.netlify.app/n/deneth-console/";
+      const url = "https://n-s-c.netlify.app/n/deneth-console/";
       window.open(url);
     } else {
       alert('wrong password');
