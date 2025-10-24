@@ -1,0 +1,111 @@
+body {
+	font-family: Roboto, Arial;
+	background-color: black;
+  padding: 0 0 50px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content p {
+	background: linear-gradient(45deg, #D2001A, #7462FF, #F4E621, #23D5AB);
+	background-size: 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+	to {
+		background-position: 200%;
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	display: block;
+	font-size: 100px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.about {
+	margin-bottom: 50px;
+}
+
+.join {
+	background-color: black;
+	color: white;
+	border: 2px solid blue;
+	padding: 15px;
+	border-radius: 20px;
+	transition: background-color 0.2s, border-color 0.2s, padding 0.15s;
+	cursor: pointer;
+}
+
+.join:hover {
+	background-color: blue;
+	border-color: black;
+	padding: 22px 30px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: ;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.left-side {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.left-side p {
+	color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.right-side {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.right-side p {
+	color: white;
+  font-weight: bold;
+}
+
+.right-side button {
+  background-color: black;
+  color: white;
+  border: 2px solid blue;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.2s, border-color 0.2s, padding 0.15s;
+  cursor: pointer;
+}
+
+.right-side p:hover {
+  cursor: pointer;
+  color: blue;
+}

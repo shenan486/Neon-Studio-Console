@@ -1,0 +1,109 @@
+body {
+	padding-left: 160px;
+	padding-top: 60px;
+	background-color: black;
+}
+
+p, h1, a {
+	background: linear-gradient(45deg, #D2001A, #7462FF, #F4E621, #23D5AB);
+	background-size: 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+	to {
+		background-position: 200%;
+	}
+}
+
+div {
+	margin: 0;
+}
+
+.container {
+	font-family: Arial;
+	font-size: 14px;
+	display: flex;
+	border: 2px solid black;
+	display: grid;
+	width: 120px;
+	height: 100px;
+	justify-content: center;
+	align-items: space-between;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: rgb(60, 60, 60);
+	box-shadow: 5px 3px 5px black;
+	transition: padding 0.15s;
+	cursor: pointer;
+}
+
+.container:hover {
+	padding: 20px;
+}
+
+.container p {
+	margin: 0;
+}
+
+.sidebar {
+	z-index: 200;
+	background-color: rgb(60, 60, 60);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	width: 140px;
+	border-right: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sidebar-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.sidebar-link {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sidebar-link:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.title {
+	margin: 0;
+}
+
+.top {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sidebar-title-container {
+	padding: 2px 20px;
+}
+
+.header {
+	color: blue;
+	background-color: rgb(60, 60, 60);
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	left: 140px;
+	right: 0;
+}
