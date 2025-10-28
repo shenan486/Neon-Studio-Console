@@ -4,7 +4,7 @@ body {
 	background-color: black;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -71,4 +71,54 @@ h2, p {
 
 .log-in-btn:active {
 	opacity: 0.4;
+}
+
+@media (max-width: 450px) {
+	.title {
+		font-size: 20px;
+	}
+	.log-in-form p{
+		font-size: 15px;
+	}
+	.log-in-form {
+		padding: 10px;
+		width: 350px;
+		height: 380px;
+	}
+	.password {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 380px) {
+	.title {
+		font-size: 15px;
+	}
+	.log-in-form p{
+		font-size: 10px;
+	}
+	.log-in-form {
+		padding: 5px;
+		width: 300px;
+		height: 330px;
+	}
+	.password {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.title {
+		font-size: 12px;
+	}
+	.log-in-form p{
+		font-size: 10px;
+	}
+	.log-in-form {
+		width: 250px;
+		height: 280px;
+	}
+	.password {
+		margin-bottom: 15px;
+	}
 }

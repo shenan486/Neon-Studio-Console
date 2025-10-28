@@ -36,7 +36,7 @@ function checkIdentity(user, pass) {
       alert('wrong password');
     }
   } else if (user == 'N-Jktkzn') {
-    if (pass == '1011202614') {
+    if (pass == '101120112614') {
       alert(`Logged In As Deneth`);
       const url = "https://n-s-c.netlify.app/n/deneth-console/";
       window.open(url);
