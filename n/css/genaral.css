@@ -1,0 +1,30 @@
+body {
+	padding-left: 160px;
+	font-family: Roboto, Arial;
+	background-size: 200%;
+	background: linear-gradient(45deg, #D2001A, #7462FF, #F4E621, #23D5AB, #4BE7F3, #DC41ED, #9B10AF);
+	background-size: 200%;
+	animation: animate-gradient 2.5s linear infinite;
+}
+
+p, h1 {
+	color: white;
+}
+
+.sidebar p {
+	color: rgba(104, 0, 159);
+}
+
+@keyframes animate-gradient {
+	to {
+		background-position: 200%;
+	}
+}
+
+div {
+	margin: 0;
+}
+
+
+
+

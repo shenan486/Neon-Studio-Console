@@ -1,0 +1,12 @@
+.s-icon {
+	width: 200px;
+	height: 200px;
+	object-fit: fill;
+	background-color: gray;
+	border-radius: 100px;
+	border: 3px solid black;
+}
+
+.items-container {
+	height: 800px;
+}

@@ -1,0 +1,41 @@
+.projects {
+	display: flex;
+}
+
+.container {
+	font-family: Arial;
+	font-size: 14px;
+
+	border: 2px solid white;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+	width: 130px;
+	height: 80px;
+	margin-left: 25px;
+	padding: 40px 14px;
+	
+	background-color: rgb(55, 55, 55);
+	transition: opacity 0.15s;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.container:hover {
+	opacity: 0.6;
+}
+
+.container p {
+	margin: 0;
+}
+
+.title {
+	font-size: 15px;
+}
+
+.name {
+	font-size: 15px;
+}
