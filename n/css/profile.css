@@ -7,6 +7,9 @@
 	border: 3px solid black;
 }
 
-.items-container {
-	height: 800px;
+.items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100px;
 }

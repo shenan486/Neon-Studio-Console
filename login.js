@@ -22,7 +22,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Xobozn') {
     if (pass == '24152152614') {
       alert(`Logged In As Rivith`);
-      const url = "https://n-s-cnetlify.app/n/rivith-console/";
+      const url = "https://n-s-cnetlify.app/n/rivith-home.html/";
       window.open(url);
     } else {
       alert('wrong password');
@@ -30,7 +30,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Jceivmsi') {
     if (pass == '103592213199') {
       alert(`Logged In As Buwaneka`);
-      const url = "https://n-s-c.netlify.app/n/buwaneka-console/";
+      const url = "https://n-s-c.netlify.app/n/buwaneka-home.html";
       window.open(url);
     } else {
       alert('wrong password');
@@ -38,7 +38,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Jktkzn') {
     if (pass == '101120112614') {
       alert(`Logged In As Deneth`);
-      const url = "https://n-s-c.netlify.app/n/deneth-console/";
+      const url = "https://n-s-c.netlify.app/n/deneth-home.html";
       window.open(url);
     } else {
       alert('wrong password');
