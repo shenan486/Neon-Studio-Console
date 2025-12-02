@@ -22,7 +22,7 @@ function checkIdentity(user, pass) {
   } else if (user == 'N-Xobozn') {
     if (pass == '24152152614') {
       alert(`Logged In As Rivith`);
-      const url = "https://n-s-c.netlify.app/n/rivith-home.html/";
+      const url = "https://n-s-c.netlify.app/n/rivith-home.html";
       window.open(url);
     } else {
       alert('wrong password');
